@@ -1,0 +1,36 @@
+Similarity/relatedness experiment
+Run time: 2018-11-29 14:44:52
+
+Embedding file: data/gigaword5_word2vec.bin
+Embedding file format: bin
+Configuration file: config.ini
+Logging detailed scores to: data/demo_detailed_scores.log
+
+Reading embeddings from data/gigaword5_word2vec.bin...
+  Read 657499 embeddings.
+
+Checking WordSim-353...
+Rho: 0.57 (Evaluated 352/352)
+
+Checking WS353_Similarity...
+Rho: 0.61 (Evaluated 203/203)
+
+Checking WS353_Relatedness...
+Rho: 0.52 (Evaluated 252/252)
+
+Checking SimLex-999...
+Rho: 0.32 (Evaluated 999/999)
+
+Checking RareWords...
+Rho: 0.43 (Evaluated 1817/2034)
+
+
+-- Final report --
+
+WordSim-353 --> Rho: 0.565 (352/352 samples)
+WS353_Similarity --> Rho: 0.610 (203/203 samples)
+WS353_Relatedness --> Rho: 0.524 (252/252 samples)
+SimLex-999 --> Rho: 0.321 (999/999 samples)
+RareWords --> Rho: 0.433 (1817/2034 samples)
+
+Log output saved to data/demo.log

@@ -1,0 +1,24 @@
+Similarity/relatedness experiment
+Run time: 2019-04-15 16:49:00
+
+Embedding file: ../PAR_Word2Vec_gpu_vectors_text8.txt
+Embedding file format: txt
+Configuration file: config.ini
+Logging detailed scores to: data/demo_detailed_scores_test.log
+
+Reading embeddings from ../PAR_Word2Vec_gpu_vectors_text8.txt...
+  Read 71291 embeddings.
+
+Checking WordSim-353...
+Rho: 0.69 (Evaluated 350/352)
+
+Checking SimLex-999...
+Rho: 0.34 (Evaluated 992/999)
+
+
+-- Final report --
+
+WordSim-353 --> Rho: 0.692 (350/352 samples)
+SimLex-999 --> Rho: 0.338 (992/999 samples)
+
+Log output saved to data/demo_test.log
